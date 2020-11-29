@@ -1,0 +1,21 @@
+.table__component {
+  .table {
+    display: table;
+
+    .head {
+      font-size: 1rem;
+      font-weight: 700;
+    }
+    .row {
+      display: table-row;
+
+      &:nth-child(even) {
+        background-color: rgb(212, 212, 212);
+      }
+
+      .column {
+        display: table-cell;
+      }
+    }
+  }
+}
